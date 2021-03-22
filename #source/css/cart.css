@@ -1,0 +1,29 @@
+.cart {
+  font-family: "SegoeUIRegular";
+  /* .cart__title */
+  /* .cart__row */
+  /* .cart__column */
+}
+.cart__title {
+  font-size: 42.4px;
+  color: #6f7173;
+}
+.cart__row {
+  display: flex;
+}
+.cart__column {
+  flex: 0 0 50%;
+}
+
+.info-cart {
+  /* .info-cart__title */
+  /* .info-cart__field */
+}
+.info-cart__title {
+  font-size: 26.4px;
+  color: #6f7173;
+}
+.info-cart__field {
+  font-size: 15.4px;
+  color: #909090;
+}

@@ -1,0 +1,88 @@
+
+// ==========================================================
+
+
+// ==========================================================
+.header {
+	padding: 25px 0 0px 0;
+	/* .header__row */
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.container {
+}
+.left-block {
+	/* .left-block__row */
+	&__row {
+		display: flex;
+	}
+}
+	/* .left-block__logo */
+.logo {
+	/* .logo__row */
+	&__row {
+		display: flex;
+	}
+	/* .logo__icon */
+	&__icon {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #5094f2;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		margin-right: 15px;
+	}
+	/* .logo__title */
+	&__title {
+		font-family: "SegoeUIRegular";
+		font-size: 42.4px;
+		font-weight: 300;
+		letter-spacing: 0.01em;
+		color: #000000;
+	}
+}
+.right-block {
+}
+.menu {
+	/* .menu__list */
+	&__list {
+		display: flex;
+
+	}
+	/* .menu__item */
+	&__item {
+		margin-left: 35px;
+		
+	}
+	/* .menu__link */
+	&__link {
+		position: relative;
+		font-family: "SegoeUIRegular";
+		font-size: 20.4px;
+		letter-spacing: 0.01em;
+		color: #6c6c6c;
+		padding-bottom: 30px;
+		display: inline-block;
+		&:hover{
+			&:after{
+				opacity: 1;
+			}
+		}
+		&:after{
+			content:"";
+			position: absolute;
+			left: 0;
+			bottom: 0px;
+			right: 0;
+			height: 2px;
+			background-color: #5094f2;
+			opacity: 0;
+			transition:all 0.3s;
+
+		}
+	}
+}
